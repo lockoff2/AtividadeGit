@@ -2,3 +2,4 @@ este trabalho tem como objetivo fazer um plano de sistema para futuro aplicaçã
 foi usado txt
 editor foi o bloco de notas 
 orientador gustavo
+eu estou desenvolvendo esse texto
