@@ -1,0 +1,96 @@
+instrução 1
+
+$ git config --global user.name "Jorge Gabriel"
+
+$ git config --global user.email jorgegabrielsturza@gmail.com
+
+instrução 2
+$ mkdir AtividadeGit
+
+$ cd AtividadeGit
+
+$ touch comandos.txt
+
+instrução 3
+
+$ git init
+
+instrução 4
+
+$ touch introducao.txt
+
+$ touch desenvolvimento.txt
+
+$ touch conclusao.txt
+
+instrução 5
+
+$ git add .
+
+$ git commit -am "Primeiro Commit"
+
+instrução 6
+
+$ git branch desenvolvimento
+
+$ git branch revisao
+
+instrução 7
+
+$ git checkout desenvolvimento
+
+instrução 8
+
+$ git commit -am "Alteracao em introducao,desenvolvimento e conclusao"
+
+instrução 9
+
+$ git checkout revisao
+
+instrução 10
+
+$git commit -am "Alteracao nos arquivos de texto"
+
+instrução 11
+
+$git checkout desenvolvimento
+
+$ git merge revisao
+
+instrução 12 e 13
+
+$ git commit -am "Conflitos de merge resolvidos de forma manual por editor de texto"
+
+$ git merge revisao -m "Foi feito merge entre revisão e desenvolvimento, ocorreu conflitos e foram alterados por forma de editor de texto"
+
+instrução 14
+$ git log
+
+$ git log --oneline
+
+$ git lo -graph --oneline --all
+
+$ git checkout master
+
+$ git log
+
+$ git add .
+
+$ git commit -am "Print Log"
+
+$ git log --oneline
+
+$ git add .
+
+$ git commit -am "Print Log --oneline"
+
+instrução 15
+
+$ git lo -graph --oneline --all
+
+$ git add .
+
+$ git commit -am "Print Log Graph Master"
+
+$ merge desenvolvimento -m "Merge Final"
+
